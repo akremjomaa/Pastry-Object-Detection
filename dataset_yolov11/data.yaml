@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Tart', 'donut', 'eclair', 'muffin', 'pain au chocolat']
+
+roboflow:
+  workspace: pastryproducts
+  project: my-first-project-rpyvu
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/pastryproducts/my-first-project-rpyvu/dataset/2
