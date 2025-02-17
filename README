@@ -97,21 +97,6 @@ results = best_model.predict(source=test_image, save=True)
 
 The predictions are stored in the `runs/detect/predict/` directory.
 
----
-
-## 📁 Repository Structure  
-
-```
-📂 pastry-detection-yolov11
- ├── 📂 dataset_yolov11         # Dataset (train, val, test images + annotations)
- ├── 📂 runs                    # Training logs and model checkpoints
- ├── 📂 notebooks                # Jupyter notebooks for training and evaluation
- ├── 📂 results                  # Evaluation metrics and predictions
- ├── train_model.py              # YOLOv11 training script
- ├── evaluate_model.py           # Model evaluation script
- ├── README.md                   # Project documentation
- ├── requirements.txt            # List of dependencies
-```
 
 ---
 
