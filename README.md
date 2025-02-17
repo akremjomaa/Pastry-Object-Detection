@@ -3,6 +3,8 @@
 ## 📌 Project Overview  
 This project focuses on **object detection** applied to pastry products, including **pain au chocolat, éclair, muffin, donut, and tart**. The goal is to fine-tune **YOLOv11**, a state-of-the-art object detection model, to accurately detect and classify these pastries within images.  
 
+This project was entirely **developed and trained using Google Colab**, leveraging its cloud-based GPU acceleration for efficient model training.  
+
 We collected and annotated a **small dataset (100 images)**, conducted multiple training experiments with different hyperparameter configurations, and evaluated the model’s performance using quantitative and qualitative metrics.  
 
 ---
@@ -37,8 +39,8 @@ Each image is labeled with bounding boxes and stored in YOLO format. The dataset
 
 ### 1️⃣ Clone the repository  
 ```bash
-git clone https://github.com/yourusername/pastry-detection-yolov11.git
-cd pastry-detection-yolov11
+git clone https://github.com/akremjomaa/Pastry-Object-Detection.git
+cd Pastry-Object-Detection
 ```
 
 ### 2️⃣ Install dependencies  
